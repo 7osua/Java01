@@ -12,6 +12,6 @@ that I need to do and need to implement to get Up and Running.
 - [ ] Update Todo.
 - [ ] Show All Todo.
 
-> 00:10:00
+> 00:17:00
 
 Start small :dart: Go solo :rocket:
