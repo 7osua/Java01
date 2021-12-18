@@ -17,6 +17,6 @@ that I need to do and need to implement to get Up and Running.
 - [ ] Create a **Add todo View**.
 - [ ] Create a **Delete todo View**.
 
-> 00:32:00
+> 00:40:00
 
 Start small :dart: Go solo :rocket:

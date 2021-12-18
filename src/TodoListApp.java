@@ -47,7 +47,7 @@ public class TodoListApp {
 
     public static void testAddTodo() {
         for(int index = 0; index < 7; index++) {
-            addTodo("This todo task : " + (index+1));
+            addTodo("This todo task : " + (index + 1));
         }
     }
 
@@ -55,13 +55,19 @@ public class TodoListApp {
        if((todoIndex - 1) >= todos.length || todos[todoIndex - 1] == null) {
            return false;
        } else {
-           todos[todoIndex-1] = null;
+           for(int index = (todoIndex - 1); index < todos.length; index++){
+               if(index == (todos.length - 1)) {
+                   todos[index] = null;
+               } else {
+                   todos[index] = todos[index + 1];
+               }
+           }
            return true;
        }
     }
 
     public static void testDelTodo() {
-        var validDeleteTodo = delTodo(7);
+        var validDeleteTodo = delTodo(3);
         System.out.println(validDeleteTodo);
     }
 
