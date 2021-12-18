@@ -68,6 +68,7 @@ public class TodoListApp {
 
     public static void testDelTodo() {
         var validDeleteTodo = delTodo(3);
+        validDeleteTodo = delTodo(5);
         System.out.println(validDeleteTodo);
     }
 
