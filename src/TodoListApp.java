@@ -46,13 +46,23 @@ public class TodoListApp {
     }
 
     public static void testAddTodo() {
-        for(int index = 0; index < 21; index++) {
+        for(int index = 0; index < 7; index++) {
             addTodo("This todo task : " + (index+1));
         }
     }
 
-    public static void delTodo(){
+    public static boolean delTodo(Integer todoIndex){
+       if((todoIndex - 1) >= todos.length || todos[todoIndex - 1] == null) {
+           return false;
+       } else {
+           todos[todoIndex-1] = null;
+           return true;
+       }
+    }
 
+    public static void testDelTodo() {
+        var validDeleteTodo = delTodo(7);
+        System.out.println(validDeleteTodo);
     }
 
     public static void viewTodos() {
@@ -69,6 +79,7 @@ public class TodoListApp {
 
     public static void main(String[] args) {
         testAddTodo();
+        testDelTodo();
         testGetTodos();
     }
 }

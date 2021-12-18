@@ -9,12 +9,13 @@ that I need to do and need to implement to get Up and Running.
 - [ ] Simple Prototyping.
 - [x] Show All Todo.
 - [x] Add Todo.
-- [ ] Delete Todo.
+- [x] Delete Todo.
 - [x] Testing for Show All todo.
 - [x] Testing for Add todo.
+- [x] Testing for Delete todo.
 - [ ] Create a **All todo View**.
 - [ ] Create a **Add todo View**.
-- [ ] Create a **Remove todo View**.
+- [ ] Create a **Delete todo View**.
 
 > 00:32:00
 
