@@ -7,11 +7,15 @@ that I need to do and need to implement to get Up and Running.
 
 - [ ] Basic Java & Foundation To start.
 - [ ] Simple Prototyping.
-- [ ] Add Todo.
+- [x] Show All Todo.
+- [x] Add Todo.
 - [ ] Delete Todo.
-- [ ] Update Todo.
-- [ ] Show All Todo.
+- [x] Testing for Show All todo.
+- [x] Testing for Add todo.
+- [ ] Create a **All todo View**.
+- [ ] Create a **Add todo View**.
+- [ ] Create a **Remove todo View**.
 
-> 00:17:00
+> 00:32:00
 
 Start small :dart: Go solo :rocket:
