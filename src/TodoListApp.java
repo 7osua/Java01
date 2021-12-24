@@ -89,8 +89,8 @@ public class TodoListApp {
     public static void getTodos() {
         System.out.println("\nTodolist saat ini\t:");
         for (int i =0; i < todos.length; i++) {
-            var todo = todos[i];
-            var todoNo = i + 1;
+            String todo = todos[i];
+            int todoNo = i + 1;
 
             if (todo != null ) {
                 System.out.println(todoNo + ". " + todo);
@@ -104,7 +104,7 @@ public class TodoListApp {
 
     public static void addTodo(String todo){
 
-        var hasEmptyIndex = false;
+        boolean hasEmptyIndex = false;
 
         for (int index = 0; index < todos.length; index++) {
             if (todos[index] == null) {
@@ -114,7 +114,7 @@ public class TodoListApp {
         }
 
         if(!hasEmptyIndex) {
-            var currentTodos = todos;
+            String[] currentTodos = todos;
             todos = new String[todos.length * 2];
 
             for (int index = 0; index < currentTodos.length; index++) {
@@ -152,7 +152,7 @@ public class TodoListApp {
     }
 
     public static void testDelTodo() {
-        var validDeleteTodo = delTodo(3);
+        boolean validDeleteTodo = delTodo(3);
         validDeleteTodo = delTodo(5);
         System.out.println(validDeleteTodo);
     }
